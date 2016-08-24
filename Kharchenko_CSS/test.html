@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>Заголовок документа</title>
+      <meta charset="utf-8" />
+	  <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+   <div class="header">
+   <header>
+      <p><img src="weblogo.png" alt="изображение" height="100" width="200"></p>
+      <h1>Основы Web-технологии</h1>
+      <nav>
+         <ul class="nav">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="web.html">Web-технологий</a>
+		 <ul class="hiddenNav">
+			<li><a href="html.html">HTML</a></li>
+			<li><a href="css.html">CSS</a></li>
+			<li><a href="js.html">JavaScript</a></li>
+         </ul></li>
+		    <li><a href="calculator.html">Калькулятор</a></li>
+		    <li><a href="test.html">Тест</a></li>
+         </ul>
+      </nav>
+	  </header>
+	  </div>
+	  <div>
+      <main>
+	     <form name="test">
+		    <p>Какой тег предназначен для создания ссылок:<br />
+				<label><input type="radio" name="linkteg" value="<a>">&lt;a&gt;</label><br />
+				<label><input type="radio" name="linkteg" value="<a/>">&lt;a/&gt;</label><br />
+				<label><input type="radio" name="linkteg" value="<ref>">&lt;ref&gt;</label><br />
+				<label><input type="radio" name="linkteg" value="<ref/>">&lt;ref/&gt;</label>
+			</p>
+			<p>Какой тег предназначен для создания нумерованного списка:<br />
+				<label><input type="radio" name="numberedlist" value="<li>">&lt;li&gt;</label><br />
+				<label><input type="radio" name="numberedlist" value="<dl>">&lt;dl&gt;</label><br />
+				<label><input type="radio" name="numberedlist" value="<ol>">&lt;ol&gt;</label><br />
+				<label><input type="radio" name="numberedlist" value="<ul>">&lt;ul&gt;</label>
+			</p>
+			<p>Какой тег предназначен для передачи служебной информации браузеру:<br />
+				<label><input type="radio" name="passteg" value="<info>">&lt;info&gt;</label><br />
+				<label><input type="radio" name="passteg" value="<info />">&lt;info /&gt;</label><br />
+				<label><input type="radio" name="passteg" value="<meta>">&lt;meta&gt;</label><br />
+				<label><input type="radio" name="passteg" value="<meta />">&lt;meta /&gt;</label>
+			</p>
+			<p>Какие теги используются при создании таблицы:<br />
+				<label><input type="checkbox" name="tableteg" value="<bodyt>">&lt;bodyt&gt;</label><br />
+				<label><input type="checkbox" name="tableteg" value="<td>">&lt;td&gt;</label><br />
+				<label><input type="checkbox" name="tableteg" value="<groupcol>">&lt;groupcol&gt;</label><br />
+				<label><input type="checkbox" name="tableteg" value="<col />">&lt;col /&gt;</label>
+			</p>
+			<p>Какие атрибуты используются при создании форм:<br />
+				<label><input type="checkbox" name="formteg" value="autocomplete">autocomplete</label><br />
+				<label><input type="checkbox" name="formteg" value="action">action</label><br />
+				<label><input type="checkbox" name="formteg" value="charset">charset</label><br />
+				<label><input type="checkbox" name="formteg" value="validate">validate</label></p>
+			<p>
+			    <input type="button" class="resultTest" name="button" value="Результат"/>
+			</p>
+		 </form>
+      </main>
+	  </div>
+	  <div class="footer">
+      <footer>
+         <address>
+            <a href="mailto:mail@mail">Пишите: mail@mail</a></address>
+            <div>&copy; Харченко Светлана Николаевна, 2016 год</div>
+      </footer>
+	  </div>
+   </body>
+</html>

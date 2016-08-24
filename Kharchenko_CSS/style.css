@@ -1,0 +1,145 @@
+  * {/* сброc  */
+	  vertical-align: baseline;
+	  font-weight: inherit;
+	  font-family: inherit;
+	  font-style: inherit;
+	  font-size: 100%;
+	  border: 0 none;
+	  outline: 0;	  
+	  margin: 0; 
+	  padding: 0;
+ }
+ html {
+   display: block;
+   background: gray;
+   height: 100%;
+ }
+ body {
+	 display: block; 
+	 text-align: justify;
+	 width: 780px; 
+     margin: 0 auto;
+	 font-family: Arial;
+ } 
+ div {
+	 display: block;
+     background: white;
+     padding: 5px 5px;
+     border-radius: 9px; 
+ }
+ .header {
+	 font-family; Times New Roman;
+ }
+ img {
+	 float: left;
+ }
+ h1 {
+	 float:left;
+	 display: block;
+     font-weight: bold;
+	 font-family: Times New Roman;
+     font-size: 200%;
+     margin: 30px 30px 30px 30px
+ }
+ .nav {
+	 list-style-type: none;
+	 clear: both;
+	 text-align: center;
+ }
+ .nav li {
+	 display: inline;
+     position: relative;
+ }
+ .hiddenNav li {
+	 display: block;
+ }
+ .hiddenNav {
+     position: absolute;
+	 display: none;
+     top: 100%;
+     left: 0px; 
+     background: white;
+     border: 2px solid black;
+     border-radius: 6px;
+     padding: 6px;
+     text-align: left;
+ }
+ .nav li:hover .hiddenNav { /* Выводим выпадающий пункт при наведении курсора */
+        display: block;
+ }
+ .footer {
+	 font-family: Times New Roman;
+	 text-align: center;
+	 padding: 4px 0 2px 0;
+ }
+ address, i, em, dfn {
+	 font-style: italic;
+ }
+ b, strong {
+   font-weight: bolder;
+} 
+ .web ul { /* Web-technology */
+	 padding: 0 0 0 30px;
+ }
+ .web dd {
+	 padding: 0 0 0 30px;
+ } 
+/* html */
+ h2 {
+	 font-weight: bold;
+	 padding: 0 0 7px 5px;
+	 font-size: 130%;
+ }
+ h3 {
+	font-weight: bold;
+	padding: 8px 0 ;
+ }
+ .aside {
+	 float: right;
+	 display: block;
+	 background: lightgrey;
+	 font-family: Times New Roman;
+     width: 189px;
+	 margin: 5px;
+ }
+ .aside  p {
+	 font-size: small;
+ }
+ code {
+   font-family: monospace;
+ }
+  .side {
+    padding: 0;
+ }
+ /* calculator */
+  table {
+	 margin: 0px 300px;
+	 height: 100px;
+	 width: 300px;
+	 border-spacing: 2px 4px;
+ }
+  td {
+   padding: 3px 7px 3px 7px;
+   text-align: center; 
+   border: gray 1px solid;
+   border-radius: 1px;
+   background: linear-gradient(to top, #D3D3D3, #F5F5F5) #DCDCDC;
+ }
+ .result {
+  background: #FFFFFF;
+ }
+  button {
+  background: linear-gradient(to top, #D3D3D3, #F5F5F5) #DCDCDC;
+ }
+ 
+ /* test */
+  label  input {
+  margin: 0 6px;
+  }
+  .resultTest {
+   border: gray 1px solid;
+   border-radius: 1px;
+   background: linear-gradient(to top, #D3D3D3, #F5F5F5) #DCDCDC;
+   font-size: medium;
+   padding: 1px 5px;
+ }
