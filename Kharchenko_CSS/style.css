@@ -1,4 +1,4 @@
-  * {/* сброc  */
+  * {/* СЃР±СЂРѕСЃ  */
 	  vertical-align: baseline;
 	  font-weight: inherit;
 	  font-family: inherit;
@@ -64,7 +64,7 @@
      padding: 6px;
      text-align: left;
  }
- .nav li:hover .hiddenNav { /* Выводим выпадающий пункт при наведении курсора */
+ .nav li:hover .hiddenNav { /* Г‚Г»ГўГ®Г¤ГЁГ¬ ГўГ»ГЇГ Г¤Г ГѕГ№ГЁГ© ГЇГіГ­ГЄГІ ГЇГ°ГЁ Г­Г ГўГҐГ¤ГҐГ­ГЁГЁ ГЄГіГ°Г±Г®Г°Г  */
         display: block;
  }
  .footer {
@@ -113,7 +113,7 @@
  }
  /* calculator */
   table {
-	 margin: 0px 300px;
+	 margin: auto;
 	 height: 100px;
 	 width: 300px;
 	 border-spacing: 2px 4px;
