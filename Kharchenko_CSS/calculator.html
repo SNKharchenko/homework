@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
    <head>
       <title>Заголовок документа</title>
@@ -30,7 +30,7 @@
 	      <form id="calculator" name="calculator">
              <table border="1">
 		        <tr>
-		           <td colspan="5" class="result"><input type="text" name="result" size="25"/></td>
+		           <td colspan="5"><input class="result" type="text" name="result"/></td>
 				</tr>
 				<tr>
 				   <td><button type="button" value="7" onclick="callFunction()">7</button></td>
@@ -51,10 +51,10 @@
 				   <td><button type="button" value="2" onclick="callFunction()">2</button></td>
 				   <td><button type="button" value="3" onclick="callFunction()">3</button></td>
 				   <td><button type="button" value="-" onclick="callFunction()">-</button></td>
-				   <td rowspan="2"><button type="button" value="=" onclick="callFunction()">=</button></td>
+				   <td rowspan="2"><button class="equal" type="button" value="=" onclick="callFunction()">=</button></td>
 			    </tr>
 				<tr>
-				   <td colspan="2"><button type="button" value="0" onclick="callFunction()">0</button></td>
+				   <td colspan="2"><button class="zero" type="button" value="0" onclick="callFunction()">0</button></td>
 				   <td><button type="button" value="." onclick="callFunction()">.</button></td>
 				   <td><button type="button" value="+" onclick="callFunction()">+</button></td>
 			    </tr>
