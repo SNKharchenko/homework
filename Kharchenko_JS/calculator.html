@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>Заголовок документа</title>
+      <meta charset="utf-8" />
+	  <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+   <div class="header">
+   <header>
+      <p><img src="weblogo.png" alt="изображение" height="100" width="200"></p>
+      <h1>Основы Web-технологии</h1>
+      <nav>
+         <ul class="nav">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="web.html">Web-технологий</a>
+		 <ul class="hiddenNav">
+			<li><a href="html.html">HTML</a></li>
+			<li><a href="css.html">CSS</a></li>
+			<li><a href="js.html">JavaScript</a></li>
+         </ul></li>
+		    <li><a href="calculator.html">Калькулятор</a></li>
+		    <li><a href="test.html">Тест</a></li>
+         </ul>
+      </nav>
+	  </header>
+	  </div>
+	  <div>
+      <main>
+	      <form id="calculator" name="calculator">
+             <table border="1">
+		        <tr>
+		           <td colspan="5"><input id="result" class="result" type="text" name="result" size="35"/></td>
+				</tr>
+				<tr>
+				   <td><button type="button" id="seven" value="7" onclick="callFunction()">7</button></td>
+				   <td><button type="button" id="eight" value="8" onclick="callFunction()">8</button></td>
+				   <td><button type="button" id="nine" value="9" onclick="callFunction()">9</button></td>
+				   <td><button type="button" id="division" value="/" onclick="callFunction()">/</button></td>
+				   <td><button type="button" id="reset" value="C" onclick="callFunction()">C</button></td>
+			    </tr>
+				<tr>
+				   <td><button type="button" id="four" value="4" onclick="callFunction()">4</button></td>
+				   <td><button type="button" id="five" value="5" onclick="callFunction()">5</button></td>
+				   <td><button type="button" id="six" value="6" onclick="callFunction()">6</button></td>
+				   <td><button type="button" id="multiply" value="*" onclick="callFunction()">*</button></td>
+				   <td><button type="button" id="plusMinus" value="±" onclick="callFunction()">&plusmn;</button></td>
+			    </tr>
+				<tr>
+				   <td><button type="button" id="one" value="1" onclick="callFunction()">1</button></td>
+				   <td><button type="button" id="two" value="2" onclick="callFunction()">2</button></td>
+				   <td><button type="button" id="three" value="3" onclick="callFunction()">3</button></td>
+				   <td><button type="button" id="minus" value="-" onclick="callFunction()">-</button></td>
+				   <td rowspan="2"><button id="equal" class="equal" type="button" value="=" onclick="callFunction()">=</button></td>
+			    </tr>
+				<tr>
+				   <td colspan="2"><button id="zero" class="zero" type="button" value="0" onclick="callFunction()">0</button></td>
+				   <td><button type="button" id="point" value="." onclick="callFunction()">.</button></td>
+				   <td><button type="button" id="plus" value="+" onclick="callFunction()">+</button></td>
+			    </tr>
+			 </table>
+		  </form>
+      </main>
+	  </div>
+	  <div class="footer">
+      <footer>
+         <address>
+            <a href="mailto:mail@mail">Пишите: mail@mail</a></address>
+            <div>&copy; Харченко Светлана Николаевна, 2016 год</div>
+      </footer>
+	  </div>
+	  <script src="js.js">
+	  </script>
+   </body>
+</html>
