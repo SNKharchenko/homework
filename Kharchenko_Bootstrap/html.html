@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>Заголовок документа</title>
+      <meta charset="utf-8" />
+	  <link href="bootstrap.css" rel="stylesheet" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   </head>
+   <body>
+   <div class="container" style="max-height: 1200px; overflow-y: scroll;">
+     <header>
+        <div class="col-xs-3">
+           <img class="img-thumbnail img-responsive" src="weblogo.png" alt="изображение" height="100">
+		</div>
+           <h1 id="top" class="col-xs-9 list-inline text-left">Основы Web-технологии</h1>
+      <nav>
+	  <div>
+         <ul class="list-inline text-left col-xs-9 col-xs-offset-3">
+			<li><a href="index.html">Главная</a></li>
+			<li>
+			   <div class="dropdown btn-group">
+			      <a href="web.html">Web-технологий</a>
+			         <button class="btn-link dropdown-togget" data-toggle="dropdown">
+			             <span class="caret"></span>
+			         </button>
+		       <ul class="dropdown-menu">
+			      <li>
+				     <button class="btn-link"><a href="html.html">HTML</a>
+				     </button>
+				  </li>
+			      <li>
+				     <button class="btn-link"><a href="css.html">CSS</a>
+					 </button>
+				  </li>
+			      <li>
+				     <button class="btn-link"><a href="js.html">JavaScript</a>
+				     </button>
+				  </li>
+              </ul>
+			  </div> 
+			</li>
+		    <li><a href="calculator.html">Калькулятор</a></li>
+		    <li><a href="test.html">Тест</a></li>
+         </ul>
+		</div>
+      </nav>
+	 </header>
+	      <aside>
+		  <div class="col-xs-12 col-sm-4 col-md-3 bg-info pull-left text-justify">
+	        <h3>Дополнительная информация</h3> 
+            <p><dfn><strong>Язык разметки</strong></dfn> в <i>компьютерной</i> терминологии &mdash; набор символов или последовательностей, вставляемых в текст для передачи информации о его выводе или строении. Принадлежит классу <i>компьютерных языков</i>. Текстовый документ, написанный с использованием языка разметки, содержит не только сам текст (как последовательность слов и знаков препинания), но и дополнительную информацию о различных его участках &mdash; например, указание на заголовки, выделения, списки и т.д. В более сложных случаях язык разметки позволяет вставлять в документ интерактивные элементы и содержание других документов.</p>
+            <p><dfn><strong>Шифрование</strong></dfn> &mdash; обратимое преобразование информации в целях сокрытия от <i>неавторизованных</i> лиц, с предоставлением, в это же время, <i>авторизованным</i> пользователям доступа к ней. Главным образом, шифрование служит задачей соблюдения <i>конфиденциальности</i> передаваемой информации. Важной особенностью любого алгоритма шифрования является использование <i>ключа</i>, который утверждает выбор конкретного преобразования из совокупности возможных для данного алгоритма.</p>
+		 </div>
+		 </aside>
+		 <div class="col-xs-12 col-sm-8 col-md-8 text-justify">
+		 <main>
+		   <div>
+		   <article>
+            <h2>HTML5</h2>
+			<div>
+			    <p><dfn><strong>HTML</strong></dfn> (от англ. HyperText Markup Language &mdash; &laquo;язык <i>гипертекстовой</i> разметки&raquo;) &mdash; <i>стандартный язык</i> разметки документов во <i>Всемирной паутине</i>. Большинство <em>Web&ndash;страниц</em> содержат описание разметки на языке HTML (или <abbr title="Extensible hypertext markup language" class="initialism">XHTML</abbr>). Язык HTML интерпретируется <i>браузерами</i> и отображается в виде документа в удобной для человека форме.</p>
+				<p>Язык HTML является приложением <abbr title="Standard Generalized Markup Language" class="initialism">SGML </abbr>(стандартного обобщённого языка разметки) и соответствует международному стандарту <abbr title="Organization for Standardization" class="initialism">ISO</abbr> 8879.</p>
+				<p>Язык XHTML является более строгим вариантом HTML, он следует всем ограничениям <abbr title="Extensible Markup Language" class="initialism">XML</abbr> и, фактически, XHTML можно воспринимать как приложение языка XML к области разметки гипертекста.</p>
+				<p>Во всемирной паутине HTML&ndash;страницы, как правило, передаются браузерам от сервера по протоколам <abbr title="Hyper Text Transfer Protocol" class="initialism">HTTP</abbr> или <abbr title="HyperText Transfer Protocol Secure" class="initialism">HTTPS</abbr>, в виде простого текста или с использованием <i>шифрования</i>.</p>
+			</div>
+			<div>
+			<section>
+			    <h3>Общее представление</h3>
+				<p>Язык HTML был разработан <i>британским</i> учёным <em>Тимом Бернерсом&ndash;Ли</em> приблизительно в <em>1986&mdash;1991 годах</em> в стенах <em>Европейского Центра ядерных исследований</em> в <em>Женеве (Швейцария)</em>. HTML создавался как язык для обмена научной и технической документацией, пригодный для использования людьми, не являющимися специалистами в области <em>вёрстки</em>. HTML успешно справлялся с проблемой сложности SGML путём определения небольшого набора структурных и <i>семантических</i> элементов &mdash; дескрипторов. Дескрипторы также часто называют <em>&laquo;тегами&raquo;</em>. С помощью HTML можно легко создать относительно простой, но красиво оформленный документ. Помимо упрощения структуры документа, в HTML внесена поддержка <i>гипертекста</i>. <em>Мультимедийные</em> возможности были добавлены позже.</p>
+				<p>Изначально язык HTML был задуман и создан как средство структурирования и форматирования документов без их привязки к средствам воспроизведения (отображения). В идеале, текст с разметкой HTML должен был без стилистических и структурных искажений воспроизводиться на оборудовании с различной технической оснащённостью (цветной экран современного компьютера, монохромный экран органайзера, ограниченный по размерам экран мобильного телефона или устройства и программы голосового воспроизведения текстов). Однако современное применение HTML очень далеко от его изначальной задачи. Например, тег &lt;TABLE&gt;предназначен для создания в документах таблиц, но часто используется и для оформления размещения элементов на странице. С течением времени основная идея платформонезависимости языка HTML была принесена в жертву современным потребностям в мультимедийном и графическом оформлении.</p>
+			</section>
+			</div>
+			<div>
+			<section>
+			    <h3>Браузеры</h3>
+                <p>Текстовые документы, содержащие разметку на языке HTML (такие документы традиционно имеют <i>расширение</i> <code>.html</code> или <code>.htm</code>), обрабатываются специальными <i>приложениями</i>, которые отображают документ в его форматированном виде. Такие приложения, называемые &laquo;браузерами&raquo; или &laquo;интернет&ndash;обозревателями&raquo;, обычно предоставляют пользователю удобный <i>интерфейс</i> для запроса <em>Web&ndash;страниц</em>, их просмотра (и вывода на иные внешние устройства) и, при необходимости, отправки введённых пользователем данных на сервер. Наиболее популярными на сегодняшний день браузерами являются <em>Google Chrome</em>, <em>Mozilla Firefox</em>, <em>Opera</em>, <em>Internet Explorer</em> и <em>Safari</em>.</p>
+			</section>
+			</div>
+         </article>
+		 </div>
+      </main>
+	     <div><a href="#top" type="button" class="btn btn-info">Вернуться на вверх</a></div>
+	  </div>
+	  <div class="footer">
+         <footer class="col-xs-12 text-center">
+            <address>
+               <a href="mailto:mail@mail">Пишите: mail@mail</a></address>
+               <div>&copy; Харченко Светлана Николаевна, 2016 год</div>
+         </footer>
+	  </div>
+	  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+      <script src="bootstrap.js"></script>
+	  </div>
+   </body>
+</html>
